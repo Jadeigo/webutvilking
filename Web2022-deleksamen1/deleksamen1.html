@@ -1,41 +1,60 @@
-<html>
-    <body>
-        <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" type="text/css" href="style.css>
-            <title>Web eksamen del 1</title>
-        </head>
-        <nav>
-            <h1>Logo</h1>
-                <li> <a href="#">Boatswain schooner</a></li>
-                <li> <a href="#">Account lookout</a></li>
-                <li> <a href="#">Sail ho shrouds</a></li>
-        </nav>
-        <header>
+<!DOCTYPE html>
+<!--#1. Satt på hvilken type doctype vi skriver programme på.-->
+<html lang="nb">
+<!--#2. Satt på en Lang attribute til å sette hvilken språk den er i websiden.-->
+    <head>
+        <meta charset="UTF-8">
+        <!--#3. Legget til en charset sånn at den viser siden riktig.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--#4. Satt på en " på slutten av style.css sånn at linken til dokumentet fungerer.-->
+        <title>Web eksamen del 1</title>
+    </head>
+
+    <nav>
+        <h1>Logo</h1>
+        <ul>
+            <li> <a href="#">Boatswain schooner</a></li>
+            <li> <a href="#">Account lookout</a></li>
+            <li> <a href="#">Sail ho shrouds</a></li>
+        </ul>
+        <!--#5. Satt på en Ul element slik at liste kan fungere.-->
+    </nav>
+
+    <header>
             <h1>Yar Pirate Ipsum</h1>
-            <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl.</p>
+            <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. 
+               Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm 
+               hempen halter furl.</p>
             <a class="button">Les mer</a>
-        </header>
+    </header>
+
+    <body>
+    <!--#6. Satt på begynnelsen av body. SLik at koden fungerer slik at vi setter attributes innenfor.-->
         <div id="main">
             <article>
                 <h1>Prow scuttle</h1>
                 <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
                 <a href="#">Les mer</a>
+            </article>
+            <!--#7. Satt på en / til å slutte article command. Da kan vi fortelle at den slutter der.-->
             <article>
-                <h1>Jack Tar transom</h1>
+                <h2>Jack Tar transom</h2>
                 <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
                 <a href="#">Les mer</a>
             </article>
             <article>
-                <h1>Trysail Sail</h1>
+                <h2>Trysail Sail</h2>
                 <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
                 <a href="#">Les mer</a>
             </article>
+            <!--#8. Byttet innen alle article fra h1 til h2.-->
+            <footer>
+                <span>Twitter</span>
+                <span>Facebook</span>
+                <span>Instagram</span>
+            </footer>
         </div>
-        <footer>
-            <span>Twitter</span>
-            <span>Facebook</span>
-            <span>Instagram</span>
-        </footer>
+        <!--#9. Flyttet slut av div under footer.-->
     </body>
 </html>

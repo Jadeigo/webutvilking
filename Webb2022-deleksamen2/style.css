@@ -29,3 +29,10 @@ nav {
     background-color: antiquewhite;
     padding: 1.5rem;
 }
+
+.grid-container {
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 100px;
+}

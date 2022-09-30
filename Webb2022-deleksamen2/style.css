@@ -3,7 +3,29 @@ head title {
     font-family: Lucida;
 }
 
-body header nav ul{
+body{
+    margin: 0;
+}
+
+header nav ul{
     font-family: 'Noto Sans', sans-serif;
 }
 
+header nav h3 {
+    float: left;
+}
+
+header nav ul {
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+nav {
+    overflow: auto;
+    background-color: antiquewhite;
+    padding: 1.5rem;
+}

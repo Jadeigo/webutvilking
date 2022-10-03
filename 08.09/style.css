@@ -6,7 +6,7 @@
 }
 body{
     margin: 0;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
 }
 
 header nav h3 {
@@ -14,7 +14,7 @@ header nav h3 {
   }
 
 header nav ul{
-    float:right;
+    float: right;
 
 }
 
@@ -52,7 +52,7 @@ main{
     float: left;
 }
 
-/*laget en klasse som brukes på arikklene på innholdssidene*/
+/*laget en klasse som brukes på artikklene på innholdssidene*/
 .article-content{
     width: 80%;
     float: left;

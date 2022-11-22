@@ -3,20 +3,49 @@ head title {
     font-family: Lucida;
 }
 
+#hovedside {
+    display: grid;
+    grid-template-areas: "start-pic start-pic start-pic"
+                            "header header header"
+                            "main main main"
+                            "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 1fr 0.3fr 0.8fr 0.4fr;                      
+}
+
+#start-pic {
+    grid-area: start-pic;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
 body{
     margin: 0;
 }
 
+#start-pic img{
+    width: 100%;
+    display: flex;
+    height: fit-content;
+
+}
 header nav ul{
     font-family: 'Noto Sans', sans-serif;
+    float: right;
 }
 
 header nav h3 {
     float: left;
-}
-
-header nav ul {
-    float: right;
 }
 
 header nav ul li {
@@ -30,13 +59,36 @@ nav {
     padding: 1.5rem;
 }
 
-.grid-container {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 100px;
+#logo-img {
+    width: 7%;
+}
+
+main {
+    display: flex;
+    text-align: center;
+}
+
+
+.main-body:hover {
+    box-shadow: 1px 7px 15px;
+}
+
+.main-body img{
+    width: 50%;
+}
+
+.main-body{
+    margin:15px
 }
 
 footer {
-    
+    background-color: darkgray;
+    margin-top: 120px;
+    text-align: center;
+}
+footer li {
+    list-style: none;
+}
+footer ul li a{
+        text-decoration: none;
 }

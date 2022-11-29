@@ -3,18 +3,13 @@ head title {
     font-family: Lucida;
 }
 
-#hovedside {
+#main {
     display: grid;
-    grid-template-areas: "start-pic start-pic start-pic"
-                            "header header header"
+    grid-template-areas:    "header header header"
                             "main main main"
                             "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;  
-    grid-template-rows: 1fr 0.3fr 0.5fr 0.4fr;                      
-}
-
-#start-pic {
-    grid-area: start-pic;
+    grid-template-rows: 0.3fr 0.5fr 0.4fr;                      
 }
 
 header {
@@ -33,12 +28,6 @@ body{
     margin: 0;
 }
 
-#start-pic img{
-    width: 100%;
-    display: flex;
-    height: fit-content;
-
-}
 header nav ul{
     font-family: 'Noto Sans', sans-serif;
     float: right;

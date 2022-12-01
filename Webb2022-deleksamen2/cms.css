@@ -53,15 +53,10 @@ nav {
 }
 
 
-#cmstabel tr th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: blue;
-    color: white;
-}
-#cmstabel th, #cmstabel td {
-    border: 1px solid;
-    text-align: left;
+#cmstabel {
+    border: 1px;
+    padding: 8px;
+
 }
 
 footer {

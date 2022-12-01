@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100&family=Roboto+Mono0:wght@100&family=Roboto:wght@300&display=swap');
+head title {
+    font-family: Lucida;
+}
+
+#kontakten {
+    display: grid;
+    grid-template-areas:    "header header header"
+                            "main main main"
+                            "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 0.3fr 0.5fr 0.4fr;                      
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+body{
+    margin: 0;
+}
+
+header nav ul{
+    font-family: 'Noto Sans', sans-serif;
+    float: right;
+}
+
+header nav h3 {
+    float: left;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+nav {
+    overflow: auto;
+    background-color: antiquewhite;
+    padding: 1.5rem;
+}
+
+#logo-img {
+    width: 7%;
+}
+
+
+#cmstabel tr th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: blue;
+    color: white;
+}
+#cmstabel th, #cmstabel td {
+    border: 1px solid;
+    text-align: left;
+}
+
+footer {
+    background-color: darkgray;
+    margin-top: 120px;
+    text-align: center;
+}
+footer li {
+    list-style: none;
+}
+footer ul li a{
+        text-decoration: none;
+}

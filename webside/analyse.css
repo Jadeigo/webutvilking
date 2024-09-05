@@ -52,11 +52,22 @@ nav {
     width: 7%;
 }
 
+main {
+    display: flex;
+    text-align: center;
+}
 
-#cmstabel {
-    border: 1px;
-    padding: 8px;
 
+.main-body:hover {
+    box-shadow: 1px 7px 15px;
+}
+
+.main-body img{
+    width: 50%;
+}
+
+.main-body{
+    margin:15px
 }
 
 footer {
@@ -69,4 +80,4 @@ footer li {
 }
 footer ul li a{
         text-decoration: none;
-}
+}       

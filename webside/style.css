@@ -5,8 +5,7 @@ head title {
 
 #hovedside {
     display: grid;
-    grid-template-areas: "start-pic start-pic start-pic"
-                            "header header header"
+    grid-template-areas:    "header header header"
                             "main main main"
                             "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;  
@@ -82,7 +81,7 @@ main {
 }
 
 footer {
-    background-color: darkgray;
+    background-color: darkgrey;
     margin-top: 120px;
     text-align: center;
 }
@@ -91,4 +90,11 @@ footer li {
 }
 footer ul li a{
         text-decoration: none;
+}
+
+#kontakten {
+    width: 400;
+    height: 300;
+    border: 0;
+
 }
